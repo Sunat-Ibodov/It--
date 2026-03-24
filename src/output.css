@@ -405,6 +405,16 @@
     outline-style: var(--tw-outline-style);
     outline-width: 0px;
   }
+  .md\:mt-\[30px\] {
+    @media (width >= 48rem) {
+      margin-top: 30px;
+    }
+  }
+  .md\:mt-\[80px\] {
+    @media (width >= 48rem) {
+      margin-top: 80px;
+    }
+  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
